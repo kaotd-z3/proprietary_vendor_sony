@@ -340,7 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libril-qc-qmi-2.so:system/vendor/lib/libril-qc-qmi-2.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
