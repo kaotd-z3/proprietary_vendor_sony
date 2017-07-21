@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/shinano-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
     vendor/sony/shinano-common/proprietary/bin/taimport:system/bin/taimport \
-    vendor/sony/shinano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/shinano-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/shinano-common/proprietary/bin/wvkbd:system/bin/wvkbd \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
@@ -371,6 +370,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libta \
-    libTimeService \
-    libtime_genoff \
-    TimeService
+    libtime_genoff
