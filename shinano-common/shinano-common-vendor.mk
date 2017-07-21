@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/sony/shinano-common/proprietary/bin/credmgrd:system/bin/credmgrd \
     vendor/sony/shinano-common/proprietary/bin/idd-logreader:system/bin/idd-logreader \
     vendor/sony/shinano-common/proprietary/bin/iddd:system/bin/iddd \
     vendor/sony/shinano-common/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -132,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/shinano-common/proprietary/lib/libcammw.so:system/lib/libcammw.so \
     vendor/sony/shinano-common/proprietary/lib/libcrashlevelmatrix.so:system/lib/libcrashlevelmatrix.so \
-    vendor/sony/shinano-common/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/shinano-common/proprietary/lib/libdtcpipplayer.so:system/lib/libdtcpipplayer.so \
     vendor/sony/shinano-common/proprietary/lib/libexcal_core.so:system/lib/libexcal_core.so \
     vendor/sony/shinano-common/proprietary/lib/libexcal_system.so:system/lib/libexcal_system.so \
@@ -155,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/libsony_chokoballrsc.so:system/lib/libsony_chokoballrsc.so \
     vendor/sony/shinano-common/proprietary/lib/libsony_face.so:system/lib/libsony_face.so \
     vendor/sony/shinano-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
-    vendor/sony/shinano-common/proprietary/vendor/CredentialManagerData:system/vendor/CredentialManagerData \
     vendor/sony/shinano-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/shinano-common/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
     vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
