@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter z3 z3c sirius castor castor_windy,$(TARGET_DEVICE)),)
+ifneq ($(filter z3 z3dual z3c sirius castor castor_windy,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libta

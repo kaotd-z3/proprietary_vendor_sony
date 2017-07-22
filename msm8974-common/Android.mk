@@ -17,6 +17,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter honami togari amami z3 z3c sirius castor castor_windy,$(TARGET_DEVICE)),)
+ifneq ($(filter honami togari amami z3 z3dual z3c sirius castor castor_windy,$(TARGET_DEVICE)),)
 
 endif
