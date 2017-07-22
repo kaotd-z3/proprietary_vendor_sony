@@ -17,7 +17,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/sony/shinano-common/proprietary/bin/credmgrd:system/bin/credmgrd \		
+    vendor/sony/shinano-common/proprietary/bin/credmgrd:system/bin/credmgrd \
     vendor/sony/shinano-common/proprietary/bin/idd-logreader:system/bin/idd-logreader \
     vendor/sony/shinano-common/proprietary/bin/iddd:system/bin/iddd \
     vendor/sony/shinano-common/proprietary/bin/irsc_util:system/bin/irsc_util \
