@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/sony/shinano-common/proprietary/bin/credmgrd:system/bin/credmgrd \
-    vendor/sony/shinano-common/proprietary/bin/iddd:system/bin/iddd \
     vendor/sony/shinano-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/shinano-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/sony/shinano-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
@@ -74,10 +73,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/sony/shinano-common/proprietary/etc/permissions/com.sony.device.xml:system/etc/permissions/com.sony.device.xml \
-    vendor/sony/shinano-common/proprietary/etc/permissions/com.sonyericsson.idd.xml:system/etc/permissions/com.sonyericsson.idd.xml \
     vendor/sony/shinano-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/sony/shinano-common/proprietary/framework/com.sony.device.jar:system/framework/com.sony.device.jar \
-    vendor/sony/shinano-common/proprietary/framework/com.sonyericsson.idd.jar:system/framework/com.sonyericsson.idd.jar \
     vendor/sony/shinano-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:system/lib/camera/libexcal_cap_ctrl_plugin.so \
