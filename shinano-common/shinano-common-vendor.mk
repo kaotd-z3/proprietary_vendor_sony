@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/shinano-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/shinano-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/sony/shinano-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/shinano-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/shinano-common/proprietary/bin/scd:system/bin/scd \
     vendor/sony/shinano-common/proprietary/bin/sct_service:system/bin/sct_service \
@@ -34,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/shinano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/shinano-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/sony/shinano-common/proprietary/bin/wvkbd:system/bin/wvkbd \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
@@ -297,9 +295,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
